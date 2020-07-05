@@ -1,0 +1,21 @@
+# ignore all logs
+*.log
+*.out
+
+# ignore ftp config
+.ftpconfig
+
+# ignore config
+/cfg/config.js
+
+# ignore old bot
+old_nico_bot.js
+
+# ignore some system files
+forever_help.txt
+service_help.txt
+welcomebot.service
+
+# ignore node
+node_modules/**
+package-lock.json
